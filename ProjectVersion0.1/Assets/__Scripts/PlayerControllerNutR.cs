@@ -6,19 +6,36 @@ public class PlayerControllerNutR : MonoBehaviour
 {
     public Rigidbody2D playerRigidBody;
 
+    public static PlayerControllerNutR Player;
 
-    // Start is called before the first frame update
-    void Start()
+    public Rigidbody2D rb;
+
+    void Awake()
     {
-        
+        if (Player == null)
+        {
+            Player = this;
+        }
+        else
+        {
+            Debug.LogError("Hero.Awake() - Attempted to assign second Her.S!");
+        }
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            playerRigidBody.velocity = new Vector2(-5, 0);
+            rb.velocity = new Vector2(5, rb.velocity.y);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            rb.velocity = new Vector2(-5, rb.velocity.y);
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 5);
         }
     }
 }
