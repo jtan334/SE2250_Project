@@ -227,6 +227,7 @@ GameObject:
   m_Layer: 8
   m_Name: Player
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TagString: Player
 =======
   - component: {fileID: 316455366}
@@ -236,6 +237,9 @@ GameObject:
   m_Name: NextScreen
   m_TagString: Untagged
 >>>>>>> main
+=======
+  m_TagString: Untagged
+>>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
 =======
   m_TagString: Untagged
 >>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
@@ -868,7 +872,11 @@ GameObject:
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
 =======
   m_IsActive: 1
 >>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
@@ -7839,12 +7847,16 @@ GameObject:
   - component: {fileID: 1735532988}
   m_Layer: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Stage
 =======
   - component: {fileID: 1556265216}
   m_Layer: 0
   m_Name: Firepoint
 >>>>>>> main
+=======
+  m_Name: Grid
+>>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
 =======
   m_Name: Grid
 >>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
@@ -7970,6 +7982,7 @@ BoxCollider2D:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1801254522
 GameObject:
@@ -8326,6 +8339,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1801254527}
   maxHealth: 100
+=======
+>>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
 =======
 >>>>>>> parent of 869b2c5 (BCB Attack animation and damage functional)
 --- !u!1 &2071014154
