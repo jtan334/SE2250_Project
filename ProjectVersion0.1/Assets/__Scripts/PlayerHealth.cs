@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+    static public PlayerHealth H;
+
     public Animator animator;
 
     public int maxHealth = 100;
@@ -32,12 +34,16 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
-    }
+        // Singleton check
+        if (H == null)
+        {
+            H = this;
+        }
+        else
+        {
+            Debug.LogError("There can not be one Player Health Script!");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        currentHealth = maxHealth;
     }
 }
