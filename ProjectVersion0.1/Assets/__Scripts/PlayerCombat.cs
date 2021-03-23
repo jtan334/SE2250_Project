@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     public Animator animator;
 
     public Transform attackPoint;
@@ -13,7 +11,6 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
 
     public int attackDamage = 40;
-
 
     private void Update()
     {
@@ -23,12 +20,13 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+
     void Attack()
     {
         // Play an attack animation
         animator.SetTrigger("Attack");
 
-        // Detect enemies in ranfe of attack
+        // Detect enemies in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         // Damage them
