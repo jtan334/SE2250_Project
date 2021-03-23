@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 457919111}
   - component: {fileID: 457919114}
   - component: {fileID: 457919113}
+  - component: {fileID: 457919118}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -366,6 +367,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 457919108}
+  maxHealth: 100
+--- !u!114 &457919118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457919107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8663247bfe66bdd47b67250a1b5209ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   maxHealth: 100
 --- !u!1 &655761068
 GameObject:
@@ -1411,7 +1426,7 @@ PrefabInstance:
     - target: {fileID: 1706211717298296521, guid: 1caf29ce06d75c6458971e1bfb583738,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1706211717298296521, guid: 1caf29ce06d75c6458971e1bfb583738,
         type: 3}
@@ -1590,6 +1605,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1940840837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1706211717298296530, guid: 1caf29ce06d75c6458971e1bfb583738,
+    type: 3}
+  m_PrefabInstance: {fileID: 1271118559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1940840842 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1706211717298296534, guid: 1caf29ce06d75c6458971e1bfb583738,
+    type: 3}
+  m_PrefabInstance: {fileID: 1271118559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1940840848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940840837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8663247bfe66bdd47b67250a1b5209ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1940840842}
+  maxHealth: 100
 --- !u!1 &2071014154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,7 +1671,7 @@ PrefabInstance:
     - target: {fileID: 635161020997045065, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045065, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
