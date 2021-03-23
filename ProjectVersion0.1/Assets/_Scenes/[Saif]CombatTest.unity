@@ -1710,12 +1710,12 @@ PrefabInstance:
     - target: {fileID: 635161020997045065, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.8
+      value: 4.55
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045065, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.83
+      value: -3.02
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045065, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
@@ -1762,5 +1762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'LightBandit '
       objectReference: {fileID: 0}
+    - target: {fileID: 635161020997045173, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: c2755e67fa2a27c4784f3f25fb5572ef, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a3d76546a06a348b221b46a3bba9fe, type: 3}
