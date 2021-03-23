@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Enemy2 : Enemy
 {
-  /*  public override void UpdateMovement(){
-         if (this.transform.position.x > leftPos) {
-             MovingDirection = Vector3.left;
-             gameObject.GetComponent<SpriteRenderer> ().flipX = false;
+    private float angle = 0;
+    private int radius = 4;
+    float x = 0;
+    float y = 0;
+    public override void UpdateMovement(){
+   
+   
+    Vector2 direction = Vector2.zero;
+   
+    x = radius * Mathf.Cos(angle);
+    y = radius * Mathf.Sin(angle);
  
-         } else if (this.transform.position.x < rightPos) { 
-             MovingDirection = Vector3.right;
-             gameObject.GetComponent<SpriteRenderer> ().flipX = true;
+    transform.position =new Vector2(x, y);
  
-         } 
-         this.transform.Translate (MovingDirection * Time.smoothDeltaTime*2);
+    angle += 0.05f*Mathf.Rad2Deg * Time.deltaTime;
          
-     } */
+     } 
 }

@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
         
      }
  
-     void UpdateMovement(){
+     public virtual void UpdateMovement(){
          if (this.transform.position.x > leftPos) {
              MovingDirection = Vector3.left;
              gameObject.GetComponent<SpriteRenderer> ().flipX = false;
