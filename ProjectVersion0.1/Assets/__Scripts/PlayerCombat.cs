@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    static public PlayerCombat C;
+
     public Animator animator;
 
     public Transform attackPoint;
@@ -11,6 +13,19 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
 
     public int attackDamage = 40;
+
+    private void Start()
+    {
+        // Singleton check
+        if (C == null)
+        {
+            C = this;
+        }
+        else
+        {
+            Debug.LogError("There can not be one Player Combat Script!");
+        }
+    }
 
     private void Update()
     {
