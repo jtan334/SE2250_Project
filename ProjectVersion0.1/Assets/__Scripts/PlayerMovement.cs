@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+	static PlayerMovement M;
+
 	public PlayerControllerNutR controller;
 	public Animator animator;
 
@@ -13,8 +15,21 @@ public class PlayerMovement : MonoBehaviour
 	float horizontalMove = 0f;
 	bool jump = false;
 
-	// Update is called once per frame
-	void Update()
+    private void Start()
+    {
+		// Singleton check
+		if (M == null)
+		{
+			M = this;
+		}
+		else
+		{
+			Debug.LogError("There can not be one Player Movement Script!");
+		}
+	}
+
+    // Update is called once per frame
+    void Update()
 	{
 
 		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;

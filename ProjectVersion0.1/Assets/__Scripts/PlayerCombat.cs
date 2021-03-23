@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    // Start is called before the first frame update
+    static public PlayerCombat C;
 
     public Animator animator;
 
@@ -14,6 +14,18 @@ public class PlayerCombat : MonoBehaviour
 
     public int attackDamage = 40;
 
+    private void Start()
+    {
+        // Singleton check
+        if (C == null)
+        {
+            C = this;
+        }
+        else
+        {
+            Debug.LogError("There can not be one Player Combat Script!");
+        }
+    }
 
     private void Update()
     {
@@ -23,12 +35,13 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+
     void Attack()
     {
         // Play an attack animation
         animator.SetTrigger("Attack");
 
-        // Detect enemies in ranfe of attack
+        // Detect enemies in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         // Damage them
