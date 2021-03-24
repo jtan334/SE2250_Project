@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ClassMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public void PlayMelee()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+    public void PlayArcher()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 }
