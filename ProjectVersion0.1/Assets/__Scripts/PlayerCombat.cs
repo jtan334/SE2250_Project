@@ -51,6 +51,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    // Used to visualize attack hitbox
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
