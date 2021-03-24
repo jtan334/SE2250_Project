@@ -1201,7 +1201,10 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 1caf29ce06d75c6458971e1bfb583738, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 1738cc4 (Bat Enemy works)
 =======
 >>>>>>> parent of 1738cc4 (Bat Enemy works)
 --- !u!1001 &1498511575
@@ -1274,6 +1277,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a3d76546a06a348b221b46a3bba9fe, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1738cc4 (Bat Enemy works)
+=======
 >>>>>>> parent of 1738cc4 (Bat Enemy works)
 =======
 >>>>>>> parent of 1738cc4 (Bat Enemy works)
