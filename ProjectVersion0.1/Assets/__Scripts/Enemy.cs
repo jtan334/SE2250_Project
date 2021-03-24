@@ -5,18 +5,18 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Animator animator;
-    public int maxHealth = 100;  
+    public int maxHealth=100;  
     
     int currentHealth;
-    float leftPos = 7.5f;
-    float rightPos = 4.5f;
+    float leftPos =7.5f;
+    float rightPos =4.5f;
 
     private Vector3 MovingDirection = Vector3.left;
    
 
     // Start is called before the first frame update
     
-    public virtual void Start()
+    void Start()
     {
         
         currentHealth = maxHealth;
