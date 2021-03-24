@@ -1202,6 +1202,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 1738cc4 (Bat Enemy works)
@@ -1283,6 +1284,8 @@ PrefabInstance:
 >>>>>>> parent of 1738cc4 (Bat Enemy works)
 =======
 >>>>>>> parent of 1738cc4 (Bat Enemy works)
+=======
+>>>>>>> parent of 5e952bf (Fixing errors)
 --- !u!1 &1735532985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,26 +1396,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1940840842}
-  maxHealth: 100
---- !u!1 &2023303574 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 635161020997045071, guid: e3a3d76546a06a348b221b46a3bba9fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1498511575}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2023303575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023303574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c98964e2fc388c40b7c525c3c8927f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   maxHealth: 100
 --- !u!1001 &635161020547530037
 PrefabInstance:
