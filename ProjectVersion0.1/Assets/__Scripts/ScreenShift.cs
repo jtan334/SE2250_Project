@@ -23,6 +23,7 @@ public class ScreenShift : MonoBehaviour
             if (currentPos.y - this.transform.position.y > 10 && collision.attachedRigidbody.velocity.y < 0)
             {
                 ViewCamera.transform.position = currentPos + new Vector3(0, -20, 0);
+                GoNotDown();
             }
             //left
             if (currentPos.x - this.transform.position.x > 20 && collision.attachedRigidbody.velocity.x < 0)
@@ -49,6 +50,10 @@ public class ScreenShift : MonoBehaviour
         void GoRight()
         {
             collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x + 40, collision.attachedRigidbody.velocity.y);
+        }
+        void GoNotDown()
+        {
+            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x, 0);
         }
     }
 
