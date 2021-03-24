@@ -8,9 +8,9 @@ public class Enemy2 : Enemy
     private int radius = 4;
     float x = 0;
     float y = 0;
+
+    // Circular movement
     public override void UpdateMovement(){
-   
-   
     Vector2 direction = Vector2.zero;
    
     x = radius * Mathf.Cos(angle);
@@ -19,6 +19,5 @@ public class Enemy2 : Enemy
     transform.position =new Vector2(x, y);
  
     angle += 0.05f*Mathf.Rad2Deg * Time.deltaTime;
-         
-     } 
+    }
 }

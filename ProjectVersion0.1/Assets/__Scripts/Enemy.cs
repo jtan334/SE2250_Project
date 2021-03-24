@@ -35,22 +35,24 @@ public class Enemy : MonoBehaviour
         }  
     }
 
-    void Die()
+    public virtual void Die()
     {
         Debug.Log("Enemy Died!");
 
         // Die animation
         animator.SetBool("IsDead", true);
 
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        Destroy(gameObject);
+
+        // The code below is still in progess. It's meant to leave the enemy corpses in the back ground
+        /*Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         rb.constraints = RigidbodyConstraints2D.FreezePositionY;
         GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        this.enabled = false;*/
     }
     void Update () {    
          UpdateMovement ();
-        
      }
  
      public virtual void UpdateMovement(){
