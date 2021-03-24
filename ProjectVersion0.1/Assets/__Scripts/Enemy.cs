@@ -8,8 +8,8 @@ public class Enemy : MonoBehaviour
     public int maxHealth=100;  
     
     int currentHealth;
-    float leftPos =7.5f;
-    float rightPos =4.5f;
+    public float distanceRight =7.5f;
+    public float distanceLeft =4.5f;
 
     private Vector3 MovingDirection = Vector3.left;
    
@@ -56,11 +56,11 @@ public class Enemy : MonoBehaviour
      }
  
      public virtual void UpdateMovement(){
-         if (this.transform.position.x > leftPos) {
+         if (this.transform.position.x > distanceRight) {
              MovingDirection = Vector3.left;
              gameObject.GetComponent<SpriteRenderer> ().flipX = false;
  
-         } else if (this.transform.position.x < rightPos) { 
+         } else if (this.transform.position.x < distanceLeft) { 
              MovingDirection = Vector3.right;
              gameObject.GetComponent<SpriteRenderer> ().flipX = true;
  
