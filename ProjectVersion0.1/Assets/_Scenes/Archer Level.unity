@@ -10501,7 +10501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 651413738}
-  maxHealth: 100
+  maxHealth: 10
   distanceRight: 7.5
   distanceLeft: 4.5
 --- !u!95 &651413738 stripped
@@ -12705,7 +12705,7 @@ PrefabInstance:
     - target: {fileID: 3340580590768763595, guid: f4137f6098d445843b5b2c50fc0d1467,
         type: 3}
       propertyPath: sceneName
-      value: '[Noah]TestScene1'
+      value: Archer Level
       objectReference: {fileID: 0}
     - target: {fileID: 3340580590768763596, guid: f4137f6098d445843b5b2c50fc0d1467,
         type: 3}
