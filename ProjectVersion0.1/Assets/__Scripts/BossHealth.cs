@@ -24,7 +24,6 @@ public class BossHealth : MonoBehaviour
 		animator.SetBool("IsDead", true);
 	}
 
-
 	public void DeleteBoss()
     {
 		Destroy(gameObject);
