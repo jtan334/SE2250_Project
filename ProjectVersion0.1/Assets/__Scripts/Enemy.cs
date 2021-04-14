@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
         {
             Die();
             exp.Exprience += 20;
+            exp.Score += 20;
             exp.SetExperience(exp.Exprience);
         }  
     }

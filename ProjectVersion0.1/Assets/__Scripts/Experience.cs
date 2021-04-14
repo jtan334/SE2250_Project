@@ -56,6 +56,13 @@ public class Experience : MonoBehaviour
         set { exprience = value; }
     }
 
+    private float score = 0;
+    public float Score
+    {
+        get { return score; }
+        set { score = value; }
+    }
+
     /*public int AbilityPoint
     {
         get { return abilityPoint; }

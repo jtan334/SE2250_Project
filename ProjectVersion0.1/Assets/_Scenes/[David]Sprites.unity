@@ -2241,8 +2241,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: -111.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -84.6, y: -106.6}
+  m_SizeDelta: {x: 40.962936, y: 18.579475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273890282
 MonoBehaviour:
@@ -2671,7 +2671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &483835298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2685,13 +2685,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.29803923}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7529412}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2770,8 +2770,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 80, y: -69.08095}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -155.52, y: -85.4}
+  m_SizeDelta: {x: 41.8414, y: 18.579475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &521458397
 MonoBehaviour:
@@ -3188,7 +3188,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health:
+  m_text: 'Ability Points:
+
+    Health:
 
     Attack Damage:
 
@@ -8015,8 +8017,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68.6, y: -111.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -106.6, y: -64.8}
+  m_SizeDelta: {x: 38.327423, y: 16.822464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1465100590
 MonoBehaviour:
