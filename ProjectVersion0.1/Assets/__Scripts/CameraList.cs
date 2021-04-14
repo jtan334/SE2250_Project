@@ -24,7 +24,7 @@ public class CameraList : MonoBehaviour
         cam6.SetActive(false);
         cam7.SetActive(false);
         cam8.SetActive(false);
-        cam9.SetActive(false);
+        //cam9.SetActive(false);
         //cam10.SetActive(false);
     }
 }
