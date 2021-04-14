@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: f61aaa198daccf54695c7d41330bace1
+guid: a9ddfb7b5649ac54e8cd40e0b48d7c13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5268162395667661257
-    second: shotgun blast FX_0
+      213: 5562665734583105716
+    second: shotgun blast Edit 1_0
   - first:
-      213: -4670735654320300509
-    second: shotgun blast FX_1
+      213: -1986634371647264403
+    second: shotgun blast Edit 1_2
   - first:
-      213: -8102297938696650073
-    second: shotgun blast FX_2
+      213: 1784122119206986601
+    second: shotgun blast Edit 1_7
   - first:
-      213: -2457818421807391203
-    second: shotgun blast FX_3
+      213: -7704482709848435115
+    second: shotgun blast Edit 1_9
   - first:
-      213: -1473980267019722891
-    second: shotgun blast FX_4
+      213: 7618423855415762051
+    second: shotgun blast Edit 1_10
   - first:
-      213: -9171264072861455938
-    second: shotgun blast FX_5
+      213: 1919033624372033909
+    second: shotgun blast Edit 1_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,127 +105,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shotgun blast FX_0
+      name: shotgun blast Edit 1_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 176
-        width: 62
-        height: 23
+        x: 9
+        y: 198
+        width: 83
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73e782b863ab3e6b0800000000000000
-      internalID: -5268162395667661257
+      spriteID: 4b8301a630f823d40800000000000000
+      internalID: 5562665734583105716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shotgun blast FX_1
+      name: shotgun blast Edit 1_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 140
-        width: 60
+        x: 7
+        y: 164
+        width: 85
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32e9c744ba63e2fb0800000000000000
-      internalID: -4670735654320300509
+      spriteID: d69226b809e0e64e0800000000000000
+      internalID: -1986634371647264403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shotgun blast FX_2
+      name: shotgun blast Edit 1_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 104
-        width: 60
-        height: 28
+        x: 11
+        y: 128
+        width: 81
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a24b9bd3fade8f80800000000000000
-      internalID: -8102297938696650073
+      spriteID: 963ef3f5d9972c810800000000000000
+      internalID: 1784122119206986601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shotgun blast FX_3
+      name: shotgun blast Edit 1_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 68
-        width: 60
-        height: 31
+        x: 11
+        y: 93
+        width: 81
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1e52cdda2314edd0800000000000000
-      internalID: -2457818421807391203
+      spriteID: 5565855abcd241590800000000000000
+      internalID: -7704482709848435115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shotgun blast FX_4
+      name: shotgun blast Edit 1_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 39
-        width: 60
-        height: 19
+        x: 12
+        y: 57
+        width: 80
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57f9a52b1ce5b8be0800000000000000
-      internalID: -1473980267019722891
+      spriteID: 38c1b62e1241ab960800000000000000
+      internalID: 7618423855415762051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shotgun blast FX_5
+      name: shotgun blast Edit 1_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 5
-        width: 60
-        height: 18
+        x: 12
+        y: 23
+        width: 80
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb96acbcaef19b080800000000000000
-      internalID: -9171264072861455938
+      spriteID: 579b9b4f9e6c1aa10800000000000000
+      internalID: 1919033624372033909
       vertices: []
       indices: 
       edges: []
