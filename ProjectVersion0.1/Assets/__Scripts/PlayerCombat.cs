@@ -35,7 +35,6 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-
     void Attack()
     {
         // Play an attack animation
@@ -47,7 +46,16 @@ public class PlayerCombat : MonoBehaviour
         // Damage them
         foreach(Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            if (enemy.GetComponent<Enemy>() != null)
+            {
+                enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+                Debug.Log("Hit enemy");
+            }
+            else if (enemy.GetComponent<BossHealth>() != null)
+            {
+                enemy.GetComponent<BossHealth>().TakeDamage(attackDamage);
+                Debug.Log("Hit boss");
+            }
         }
     }
 
