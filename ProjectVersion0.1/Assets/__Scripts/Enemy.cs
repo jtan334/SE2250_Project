@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Animator animator;
-    public int maxHealth=100;  
+    public int maxHealth = 100;  
     
     int currentHealth;
     public float distanceRight =7.5f;
