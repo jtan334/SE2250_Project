@@ -30,12 +30,12 @@ public class CameraFollowHorizontal : MonoBehaviour
         if (player.transform.position.x <= characterReferenceLeftBound)
         {
             this.transform.position = new Vector3(characterReferenceLeftBound, centerOfScreen, -10);
-            print("LEFT");
+            //print("LEFT");
         }
 
         else if (player.transform.position.x >= characterReferenceRightBound)
         {
-            print("RIGHT");
+            //print("RIGHT");
             this.transform.position = new Vector3(characterReferenceRightBound, centerOfScreen, -10);
         }
         else

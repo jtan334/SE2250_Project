@@ -20,7 +20,7 @@ public class ScreenShiftLevel2 : MonoBehaviour
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoUp();
-                print("^^^");
+                //print("^^^");
             }
             //down
             else if (currentPos.y - this.transform.position.y > 10 && collision.attachedRigidbody.velocity.y < 0)
@@ -28,7 +28,7 @@ public class ScreenShiftLevel2 : MonoBehaviour
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoNotDown();
-                print("VVV");
+                //print("VVV");
             }
             //left
             else if (currentPos.x - this.transform.position.x > 20 && collision.attachedRigidbody.velocity.x < 0)
@@ -36,7 +36,7 @@ public class ScreenShiftLevel2 : MonoBehaviour
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoLeft();
-                print("<<<");
+                //print("<<<");
             }
             //right
             else if (this.transform.position.x - currentPos.x > 20 && collision.attachedRigidbody.velocity.x > 0)
@@ -44,7 +44,7 @@ public class ScreenShiftLevel2 : MonoBehaviour
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoRight();
-                print(">>>");
+                //print(">>>");
             }
             else
             {

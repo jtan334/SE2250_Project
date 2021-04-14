@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class PlayerControllerNutR : MonoBehaviour
 {
+	public Experience exp;
 	static public PlayerControllerNutR C; // Used for singleton
 
 	[SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.

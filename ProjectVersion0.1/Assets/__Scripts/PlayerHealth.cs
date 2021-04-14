@@ -11,11 +11,12 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
 
-    public int maxHealth = 100;
+    public static int MAXHEALTH = 100;
 
     public Text healthBar;
     int currentHealth;
 
+    // Takes damage afte rgetting hit by boss
     public void TakeDamage(int damage)
     {
         Debug.Log("Hit");
@@ -24,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
 
         animator.SetTrigger("Hurt");
         healthBar.text = "Health: " + currentHealth; 
+
+        healthBar.text = "Health: " + currentHealth;
 
         if (currentHealth < 0)
         {
@@ -38,7 +41,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Hit");
 
-            currentHealth = currentHealth - 25;
+            currentHealth = currentHealth - 20;
 
             animator.SetTrigger("Hurt");
             
@@ -54,7 +57,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         //Starts the health bar at max health
-         healthBar.text = "Health: " + maxHealth;  
+         healthBar.text = "Health: " + MAXHEALTH;  
         // Singleton check
         if (H == null)
         {
@@ -65,11 +68,6 @@ public class PlayerHealth : MonoBehaviour
             Debug.LogError("There can not be one Player Health Script!");
         }
 
-        currentHealth = maxHealth;
+        currentHealth = MAXHEALTH;
     }
-    //updates the health bar every frame.
-   
-       
-    
-    
 }
