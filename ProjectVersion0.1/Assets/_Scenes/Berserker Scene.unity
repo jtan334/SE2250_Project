@@ -229,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 3340580590768763595, guid: f4137f6098d445843b5b2c50fc0d1467,
         type: 3}
       propertyPath: sceneName
-      value: Beserker Scene
+      value: Level2 Berserker
       objectReference: {fileID: 0}
     - target: {fileID: 3340580590768763596, guid: f4137f6098d445843b5b2c50fc0d1467,
         type: 3}
