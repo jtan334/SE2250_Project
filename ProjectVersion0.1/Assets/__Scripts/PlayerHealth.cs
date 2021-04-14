@@ -10,8 +10,9 @@ public class PlayerHealth : MonoBehaviour
     static public PlayerHealth H;
 
     public Animator animator;
-
-    public int maxHealth = 100;
+    
+    //public int maxHealth = 100;
+    public static int MAXHEALTH = 100;
 
     public Text healthBar;
     int currentHealth;
@@ -53,7 +54,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         //Starts the health bar at max health
-         healthBar.text = "Health: " + maxHealth;  
+         healthBar.text = "Health: " + MAXHEALTH;  
         // Singleton check
         if (H == null)
         {
@@ -64,7 +65,7 @@ public class PlayerHealth : MonoBehaviour
             Debug.LogError("There can not be one Player Health Script!");
         }
 
-        currentHealth = maxHealth;
+        currentHealth = MAXHEALTH;
     }
     //updates the health bar every frame.
    

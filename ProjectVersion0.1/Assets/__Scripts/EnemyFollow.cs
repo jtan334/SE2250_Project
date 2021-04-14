@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFollow : MonoBehaviour
+public class EnemyFollow : Enemy
 {
     public float speed;
     public Transform target;
     //Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
+        exp.SetExperience(0);
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 

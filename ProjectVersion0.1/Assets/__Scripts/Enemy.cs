@@ -6,7 +6,8 @@ public class Enemy : MonoBehaviour
 {
     public Animator animator;
     public int maxHealth = 100;
-    int currentHealth;
+    //Changed from int to public int for inheritance
+    public int currentHealth;
     public Experience exp;
 
     // Start is called before the first frame update
@@ -34,6 +35,7 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        Destroy(gameObject);
         Debug.Log("Enemy Died!");
 
         // Die animation
