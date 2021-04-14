@@ -20,31 +20,35 @@ public class ScreenShiftLevel2 : MonoBehaviour
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoUp();
-                print("up");
+                print("^^^");
             }
             //down
-            if (currentPos.y - this.transform.position.y > 10 && collision.attachedRigidbody.velocity.y < 0)
+            else if (currentPos.y - this.transform.position.y > 10 && collision.attachedRigidbody.velocity.y < 0)
             {
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoNotDown();
-                print("down");
+                print("VVV");
             }
             //left
-            if (currentPos.x - this.transform.position.x > 20 && collision.attachedRigidbody.velocity.x < 0)
+            else if (currentPos.x - this.transform.position.x > 20 && collision.attachedRigidbody.velocity.x < 0)
             {
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoLeft();
-                print("left");
+                print("<<<");
             }
             //right
-            if (this.transform.position.x - currentPos.x > 20 && collision.attachedRigidbody.velocity.x > 0)
+            else if (this.transform.position.x - currentPos.x > 20 && collision.attachedRigidbody.velocity.x > 0)
             {
                 OtherCamera.SetActive(true);
                 ThisCamera.SetActive(false);
                 GoRight();
-                print("right");
+                print(">>>");
+            }
+            else
+            {
+                return;
             }
         }
 
