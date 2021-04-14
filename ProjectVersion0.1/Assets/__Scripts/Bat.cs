@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class Bat : Enemy
 {
-	[SerializeField]
-	float moveSpeed = 5f;
 
-	[SerializeField]
-	float frequency = 20f;
-
-	[SerializeField]
-	float magnitude = 0.5f;
+	public float moveSpeed = 5f;
+	public float frequency = 15f;
+	public float magnitude = 0.5f;
 
 	bool facingRight = true;
 
@@ -20,6 +16,8 @@ public class Bat : Enemy
 	// Use this for initialization
 	void Start()
 	{
+		
+
 		pos = transform.position;
 
 		localScale = transform.localScale;
@@ -31,18 +29,18 @@ public class Bat : Enemy
 		CheckWhereToFace();
 
 		if (facingRight)
-			MoveRight();
-		else
 			MoveLeft();
+		else
+			MoveRight();
 	}
 
 	void CheckWhereToFace()
 	{
 		if (pos.x < -7f)
-			facingRight = true;
+			facingRight = false;
 
 		else if (pos.x > 7f)
-			facingRight = false;
+			facingRight = true;
 
 		if (((facingRight) && (localScale.x < 0)) || ((!facingRight) && (localScale.x > 0)))
 			localScale.x *= -1;

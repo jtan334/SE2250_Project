@@ -166,9 +166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 149198607333440457}
-  maxHealth: 100
+  maxHealth: 20
   exp: {fileID: 0}
-  distanceRight: 7.5
+  distanceRight: 4.5
   distanceLeft: 4.5
 --- !u!114 &149198607333440052
 MonoBehaviour:
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 149198607333440457}
-  maxHealth: 100
+  maxHealth: 20
   exp: {fileID: 0}
   distanceRight: 7.5
   distanceLeft: 4.5
