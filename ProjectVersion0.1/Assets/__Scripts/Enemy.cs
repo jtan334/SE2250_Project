@@ -7,11 +7,13 @@ public class Enemy : MonoBehaviour
     public Animator animator;
     public int maxHealth = 100;
     int currentHealth;
+    public Experience exp;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        exp.SetExperience(0);
     }
 
     public void TakeDamage(int damage)
@@ -24,6 +26,8 @@ public class Enemy : MonoBehaviour
         if (currentHealth < 0)
         {
             Die();
+            exp.Exprience += 20;
+            exp.SetExperience(exp.Exprience);
         }  
     }
 
