@@ -5,17 +5,22 @@ using UnityEngine.Tilemaps;
 
 public class Collect : MonoBehaviour
 {
-    public int count;
-    public Tile highlightTile;
+    public static int count;
     public Tilemap highlightMap;
 
-    private Vector3Int Top = new Vector3Int(-19,1,0);
-    private Vector3Int Middle = new Vector3Int(-19, 0, 0);
-    private Vector3Int Bottom = new Vector3Int(-19, -1, 0);
+    void Awake()
+    {
+        if (count >= 3)
+        {
+            highlightMap.SetTile(new Vector3Int(-20, 0, 0), null);
+            highlightMap.SetTile(new Vector3Int(-20, -1, 0), null);
+            highlightMap.SetTile(new Vector3Int(-20, -2, 0), null);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Collectible")
+        if (collision.tag == "Collectible" & count < 3)
         {
             count++;
             Destroy(collision.gameObject);
@@ -25,13 +30,12 @@ public class Collect : MonoBehaviour
 
     void Update()
     {
-        if (count == 3 | count == 4)
+        if (count >= 3 & count < 999)
         {
-            print("BOSS TIME");
-            highlightMap.SetTile(Top, null);
-            highlightMap.SetTile(Middle, null);
-            highlightMap.SetTile(Bottom, null);
-            count=count + 100;
+            highlightMap.SetTile(new Vector3Int(-20, 0, 0), null);
+            highlightMap.SetTile(new Vector3Int(-20, -1, 0), null);
+            highlightMap.SetTile(new Vector3Int(-20, -2, 0), null);
+            count = count + 1000;
         }
     }
 }
