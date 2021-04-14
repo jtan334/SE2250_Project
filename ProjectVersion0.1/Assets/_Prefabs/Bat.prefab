@@ -168,8 +168,8 @@ MonoBehaviour:
   animator: {fileID: 149198607333440457}
   maxHealth: 20
   exp: {fileID: 0}
-  distanceRight: 4.5
-  distanceLeft: 4.5
+  distanceRight: 20
+  distanceLeft: 1
 --- !u!114 &149198607333440052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,8 +185,8 @@ MonoBehaviour:
   animator: {fileID: 149198607333440457}
   maxHealth: 20
   exp: {fileID: 0}
-  distanceRight: 7.5
-  distanceLeft: 4.5
+  distanceRight: 30
+  distanceLeft: 25
   moveSpeed: 5
-  frequency: 20
+  frequency: 10
   magnitude: 0.5

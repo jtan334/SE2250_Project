@@ -16,8 +16,6 @@ public class Bat : Enemy
 	// Use this for initialization
 	void Start()
 	{
-		
-
 		pos = transform.position;
 
 		localScale = transform.localScale;
@@ -25,7 +23,7 @@ public class Bat : Enemy
 	}
 
 	// Circular movement
-	public override void UpdateMovement() {
+	public void Update() {
 		CheckWhereToFace();
 
 		if (facingRight)
@@ -36,13 +34,13 @@ public class Bat : Enemy
 
 	void CheckWhereToFace()
 	{
-		if (pos.x < -7f)
+		if (pos.x < distanceLeft)
 			facingRight = false;
 
-		else if (pos.x > 7f)
+		else if (pos.x > distanceRight)
 			facingRight = true;
 
-		if (((facingRight) && (localScale.x < 0)) || ((!facingRight) && (localScale.x > 0)))
+		if (((!facingRight) && (localScale.x < 0)) || ((facingRight) && (localScale.x > 0)))
 			localScale.x *= -1;
 
 		transform.localScale = localScale;

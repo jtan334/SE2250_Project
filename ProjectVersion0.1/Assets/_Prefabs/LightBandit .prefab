@@ -182,5 +182,5 @@ MonoBehaviour:
   animator: {fileID: 635161020997045066}
   maxHealth: 100
   exp: {fileID: 0}
-  distanceRight: 47.5
-  distanceLeft: 41.5
+  distanceRight: 59
+  distanceLeft: 55
