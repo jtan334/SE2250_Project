@@ -49476,7 +49476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1687297160}
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 649682739}
 --- !u!1001 &1726389304
 PrefabInstance:
   m_ObjectHideFlags: 0
