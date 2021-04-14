@@ -7,7 +7,7 @@ public class HealthText : MonoBehaviour
 
     void Update()
     {
-        health.text = "distance" + PlayerHealth.MAXHEALTH.ToString();
+        //health.text = "distance" + PlayerHealth.MAXHEALTH.ToString();
 
     }
 }

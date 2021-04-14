@@ -40,7 +40,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (Experience.ABILITYPOINTS >= 1)
         {
-            PlayerHealth.MAXHEALTH += 25;
+            //PlayerHealth.MAXHEALTH += 25;
             Experience.ABILITYPOINTS--;
         }
 

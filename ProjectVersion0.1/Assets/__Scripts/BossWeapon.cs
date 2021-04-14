@@ -16,11 +16,11 @@ public class BossWeapon : MonoBehaviour
 		pos += transform.right * attackOffset.x;
 		pos += transform.up * attackOffset.y;
 
-		Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
+		/*Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
 		if (colInfo != null)
 		{
 			colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
-		}
+		}*/
 	}
 
 	void OnDrawGizmosSelected()

@@ -8,7 +8,7 @@ public class MenuText : MonoBehaviour
     void Update()
     {
         health.text = "Ability Points: " + Experience.ABILITYPOINTS.ToString();
-        health.text += "\nHealth: " + PlayerHealth.MAXHEALTH.ToString();
+        //health.text += "\nHealth: " + PlayerHealth.MAXHEALTH.ToString();
         health.text += "\nAttack Damage: " + PlayerCombat.attackDamage.ToString();
         health.text += "\nSpeed: "; //+ PlayerHealth.MAXHEALTH.ToString();
 
