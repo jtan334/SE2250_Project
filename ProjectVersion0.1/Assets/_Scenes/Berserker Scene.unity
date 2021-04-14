@@ -47501,8 +47501,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You are a space traveler and your space ship has crashed. You must fight
-    \nyour way through an unknown planet and find a way out!"
+  m_Text: "You are Ham, a space traveler and your space ship has crashed. You must
+    fight \nyour way through an unknown planet and find a way out!"
 --- !u!222 &906014364
 CanvasRenderer:
   m_ObjectHideFlags: 0
