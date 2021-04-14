@@ -265,6 +265,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
       propertyPath: distanceLeft
       value: 49
       objectReference: {fileID: 0}
@@ -792,6 +797,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
+        type: 3}
       propertyPath: distanceLeft
       value: 15
       objectReference: {fileID: 0}
@@ -855,6 +865,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 149198607333440055, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440462, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_Name
@@ -1174,6 +1189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightBandit (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
       propertyPath: distanceLeft
@@ -2227,6 +2247,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
       propertyPath: distanceLeft
       value: 98
       objectReference: {fileID: 0}
@@ -2392,6 +2417,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
+        type: 3}
       propertyPath: distanceLeft
       value: 80
       objectReference: {fileID: 0}
@@ -2455,6 +2485,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 149198607333440055, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440462, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_Name
@@ -2866,6 +2901,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
       propertyPath: distanceLeft
       value: 58
       objectReference: {fileID: 0}
@@ -3125,6 +3165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
       propertyPath: distanceLeft
       value: 145
       objectReference: {fileID: 0}
@@ -3230,6 +3275,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
       propertyPath: distanceLeft
       value: 61
       objectReference: {fileID: 0}
@@ -3313,6 +3363,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1777013226}
     m_Modifications:
+    - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440053, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_RootOrder
@@ -3368,6 +3423,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 149198607333440055, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440462, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_Name
@@ -3524,6 +3584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
       propertyPath: distanceLeft
       value: 145
       objectReference: {fileID: 0}
@@ -3640,6 +3705,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightBandit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
       propertyPath: distanceLeft
@@ -4475,6 +4545,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
+        type: 3}
       propertyPath: distanceLeft
       value: 115
       objectReference: {fileID: 0}
@@ -4538,6 +4613,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 149198607333440055, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440462, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_Name
@@ -62508,6 +62588,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
+        type: 3}
       propertyPath: distanceLeft
       value: 65
       objectReference: {fileID: 0}
@@ -62571,6 +62656,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 149198607333440055, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440462, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_Name
@@ -80191,6 +80281,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
       propertyPath: distanceLeft
       value: 163
       objectReference: {fileID: 0}
@@ -80813,6 +80908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightBandit (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 635161020997045172, guid: e3a3d76546a06a348b221b46a3bba9fe,
         type: 3}
       propertyPath: distanceLeft
@@ -81479,6 +81579,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
       propertyPath: distanceLeft
       value: 68
       objectReference: {fileID: 0}
@@ -81657,6 +81762,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1777013226}
     m_Modifications:
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
       propertyPath: distanceLeft
@@ -82074,6 +82184,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 149198607333440052, guid: c58127180f731b547b2b832243879095,
+        type: 3}
       propertyPath: distanceLeft
       value: 18
       objectReference: {fileID: 0}
@@ -82137,6 +82252,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 149198607333440055, guid: c58127180f731b547b2b832243879095,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 149198607333440462, guid: c58127180f731b547b2b832243879095,
         type: 3}
       propertyPath: m_Name
@@ -82497,6 +82617,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
       propertyPath: distanceLeft
       value: 163
       objectReference: {fileID: 0}
@@ -82666,6 +82791,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1777013226}
     m_Modifications:
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
       propertyPath: distanceLeft
@@ -84939,6 +85069,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
       propertyPath: distanceLeft
       value: 8
       objectReference: {fileID: 0}
@@ -85353,6 +85488,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1777013226}
     m_Modifications:
+    - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1639555331}
     - target: {fileID: 4535997278024585753, guid: 76656dbd45e313e44832b79560f2953b,
         type: 3}
       propertyPath: distanceLeft
