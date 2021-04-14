@@ -26,7 +26,8 @@ public class PlayerControllerNutR : MonoBehaviour
 	public UnityEvent OnLandEvent;
 
 	[System.Serializable]
-	public class BoolEvent : UnityEvent<bool> { }
+	public class BoolEvent : UnityEvent<bool> { 
+	}
 
 	private void Awake()
 	{	
@@ -65,7 +66,6 @@ public class PlayerControllerNutR : MonoBehaviour
 		}
 	}
 
-
 	public void Move(float move, bool jump)
 	{
 		//only control the player if grounded or airControl is turned on
@@ -97,7 +97,6 @@ public class PlayerControllerNutR : MonoBehaviour
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
 	}
-
 
 	private void Flip()
 	{
