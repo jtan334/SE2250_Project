@@ -23,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
 
         animator.SetTrigger("Hurt");
+        healthBar.text = "Health: " + currentHealth; 
 
         if (currentHealth < 0)
         {
@@ -40,7 +41,7 @@ public class PlayerHealth : MonoBehaviour
             currentHealth = currentHealth - 25;
 
             animator.SetTrigger("Hurt");
-            healthBar.text = "Health: " + currentHealth; 
+            
 
             if (currentHealth <= 0)
             {
