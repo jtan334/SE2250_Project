@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Level2/Level2-NO.unity
     guid: 40e3f88af3150b0449dd79baa3da5864
   - enabled: 1
-    path: Assets/_Scenes/[Saif]CombatTest.unity
+    path: Assets/_Scenes/Boss Level Berserker.unity
     guid: f1bf6f13f37460b4d8065cea0059626d
   m_configObjects: {}
