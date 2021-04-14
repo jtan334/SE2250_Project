@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,3 +21,4 @@ public class Enemy2 : Enemy
     angle += 0.05f*Mathf.Rad2Deg * Time.deltaTime;
     }
 }
+*/
