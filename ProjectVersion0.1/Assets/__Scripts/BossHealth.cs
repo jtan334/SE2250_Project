@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossHealth : MonoBehaviour
 {
 	public Animator animator;
-	public int health = 300;
+	public int health = 100;
 
 	public void TakeDamage(int damage)
 	{
@@ -23,7 +23,6 @@ public class BossHealth : MonoBehaviour
 
 		animator.SetBool("IsDead", true);
 	}
-
 
 	public void DeleteBoss()
     {

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,9 +11,12 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
 
-    public int maxHealth = 100;
+    public static int MAXHEALTH = 100;
+
+    public Text healthBar;
     int currentHealth;
 
+    // Takes damage afte rgetting hit by boss
     public void TakeDamage(int damage)
     {
         Debug.Log("Hit");
@@ -19,6 +24,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
 
         animator.SetTrigger("Hurt");
+        healthBar.text = "Health: " + currentHealth; 
+
+        healthBar.text = "Health: " + currentHealth;
 
         if (currentHealth < 0)
         {
@@ -33,11 +41,12 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Hit");
 
-            currentHealth = currentHealth - 25;
+            currentHealth = currentHealth - 20;
 
             animator.SetTrigger("Hurt");
+            
 
-            if (currentHealth < 0)
+            if (currentHealth <= 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
@@ -47,6 +56,8 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Starts the health bar at max health
+         healthBar.text = "Health: " + MAXHEALTH;  
         // Singleton check
         if (H == null)
         {
@@ -57,6 +68,6 @@ public class PlayerHealth : MonoBehaviour
             Debug.LogError("There can not be one Player Health Script!");
         }
 
-        currentHealth = maxHealth;
+        currentHealth = MAXHEALTH;
     }
 }

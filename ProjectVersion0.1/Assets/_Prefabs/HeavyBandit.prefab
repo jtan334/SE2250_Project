@@ -165,5 +165,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4535997278024585756}
   maxHealth: 100
-  distanceRight: 0
-  distanceLeft: 0
+  exp: {fileID: 0}
+  distanceRight: 86
+  distanceLeft: 80

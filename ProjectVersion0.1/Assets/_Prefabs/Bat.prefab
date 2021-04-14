@@ -78,7 +78,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -6033406130653863735, guid: d09b1fd45fb8eab4380a99fbbeb12800,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.40625, y: 0.25}
@@ -166,9 +166,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 149198607333440457}
-  maxHealth: 100
-  distanceRight: 7.5
-  distanceLeft: 4.5
+  maxHealth: 20
+  exp: {fileID: 0}
+  distanceRight: 20
+  distanceLeft: 1
 --- !u!114 &149198607333440052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +183,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 149198607333440457}
-  maxHealth: 100
-  distanceRight: 7.5
-  distanceLeft: 4.5
+  maxHealth: 20
+  exp: {fileID: 0}
+  distanceRight: 30
+  distanceLeft: 25
+  moveSpeed: 5
+  frequency: 10
+  magnitude: 0.5
