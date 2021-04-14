@@ -9,12 +9,7 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
 
-    //Original method
-    //public int maxHealth = 100;
-    //int currentHealth;
-
-    //My Method
-    public static int MAXHEALTH = 100;
+    public int maxHealth = 100;
     int currentHealth;
 
 
@@ -49,6 +44,6 @@ public class PlayerHealth : MonoBehaviour
             Debug.LogError("There can not be one Player Health Script!");
         }
 
-        currentHealth = MAXHEALTH;
+        currentHealth = maxHealth;
     }
 }

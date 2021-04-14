@@ -12,15 +12,7 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
 
-    //Changed
-    //public int attackDamage = 40;
-
-    private int attackDamage = 40;
-    public int AttackDamage
-    {
-        get { return attackDamage; }
-        set { attackDamage = value; }
-    }
+    public int attackDamage = 40;
 
     private void Start()
     {
@@ -37,7 +29,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && (PauseMenu.GAMEISPAUSED == false))
+        if (Input.GetMouseButtonDown(0))
         {
             Attack();
         }
