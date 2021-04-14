@@ -13,7 +13,7 @@ public class CameraList : MonoBehaviour
     public GameObject cam7;
     public GameObject cam8;
     public GameObject cam9;
-    public GameObject cam10;
+    //public GameObject cam10;
     void Start()
     {
         cam1.SetActive(true);
