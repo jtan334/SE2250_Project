@@ -15,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - Player
+  - Text
   - Enemies
-  - 
+  - Players
   - 
   - 
   - 
@@ -45,6 +45,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 691946509
+    locked: 0
+  - name: Text
+    uniqueID: 2671106259
     locked: 0
   - name: Foliage
     uniqueID: 899920469
