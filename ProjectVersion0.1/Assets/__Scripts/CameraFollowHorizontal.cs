@@ -9,33 +9,38 @@ public class CameraFollowHorizontal : MonoBehaviour
     public float leftBound;
     public float rightBound;
 
+    public float centerOfScreen; //Y-axis
+
     private float characterReferenceLeftBound;
     private float characterReferenceRightBound;
+
+    private GameObject player;
 
     void Start()
     {
         characterReferenceLeftBound = leftBound + 20;
         characterReferenceRightBound = rightBound - 20;
-        this.transform.position = new Vector3(0, 0, -10);
+        //this.transform.position = new Vector3(0, 0, -10);
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (followTransform.position.x <= characterReferenceLeftBound)
+        if (player.transform.position.x <= characterReferenceLeftBound)
         {
-            this.transform.position = new Vector3(characterReferenceLeftBound, 0, -10);
-            //print("LEFT");
+            this.transform.position = new Vector3(characterReferenceLeftBound, centerOfScreen, -10);
+            print("LEFT");
         }
 
-        else if (followTransform.position.x >= characterReferenceRightBound)
+        else if (player.transform.position.x >= characterReferenceRightBound)
         {
-            //print("RIGHT");
-            this.transform.position = new Vector3(characterReferenceRightBound, 0, -10);
+            print("RIGHT");
+            this.transform.position = new Vector3(characterReferenceRightBound, centerOfScreen, -10);
         }
         else
         {
-            this.transform.position = new Vector3(followTransform.position.x, 0, -10);
+            this.transform.position = new Vector3(followTransform.position.x, centerOfScreen, -10);
         }
 
 

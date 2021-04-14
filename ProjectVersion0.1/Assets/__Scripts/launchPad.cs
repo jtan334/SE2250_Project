@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class launchPad : MonoBehaviour
 {
+    public float power = 25;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x, /* System.Math.Abs(collision.attachedRigidbody.velocity.y) + */25);
+            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x, /* System.Math.Abs(collision.attachedRigidbody.velocity.y) + */power);
         }
     }
 }

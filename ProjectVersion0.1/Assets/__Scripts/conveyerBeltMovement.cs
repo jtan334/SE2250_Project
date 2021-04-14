@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class conveyerBeltMovement : MonoBehaviour
 {
-    void OnTriggerStay(Collider collision)
+    public bool left;
+    public float speed = 75f;
+
+    void OnTriggerStay2D(Collider2D collision)
     {
-        print("Pog");
-        collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x + 5, collision.attachedRigidbody.velocity.y);
+        if (collision.gameObject.tag == "Player")
+        {
+            if(left)
+                collision.attachedRigidbody.AddForce(new Vector2(-speed, 0));
+            else
+                collision.attachedRigidbody.AddForce(new Vector2(speed, 0));
+        }
     }
 }
