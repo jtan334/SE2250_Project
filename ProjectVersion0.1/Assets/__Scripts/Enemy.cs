@@ -8,15 +8,11 @@ public class Enemy : MonoBehaviour
     public int maxHealth=100;  
     
     int currentHealth;
-<<<<<<< HEAD
     public float distanceRight =7.5f;
     public float distanceLeft =4.5f;
 
     private Vector3 MovingDirection = Vector3.left;
    
-=======
-    public Experience exp;
->>>>>>> Customization-David
 
     // Start is called before the first frame update
     
@@ -24,7 +20,6 @@ public class Enemy : MonoBehaviour
     {
         
         currentHealth = maxHealth;
-        exp.SetExperience(0);
     }
 
     public void TakeDamage(int damage)
@@ -37,8 +32,6 @@ public class Enemy : MonoBehaviour
         if (currentHealth < 0)
         {
             Die();
-            exp.Exprience += 20;
-            exp.SetExperience(exp.Exprience);
         }  
     }
 
