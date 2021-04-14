@@ -12,11 +12,5 @@ public class LavaDeath : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-
-        // Destroy's enemy if they hit the lava
-        if (collision.gameObject.tag == "Enemy")
-        {
-           // Destroy(collision.gameObject);
-        }
     }
 }
