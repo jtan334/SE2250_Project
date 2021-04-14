@@ -9,7 +9,12 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
 
-    public int maxHealth = 100;
+    //Original method
+    //public int maxHealth = 100;
+    //int currentHealth;
+
+    //My Method
+    public static int MAXHEALTH = 100;
     int currentHealth;
 
     public void TakeDamage(int damage)
@@ -57,6 +62,6 @@ public class PlayerHealth : MonoBehaviour
             Debug.LogError("There can not be one Player Health Script!");
         }
 
-        currentHealth = maxHealth;
+        currentHealth = MAXHEALTH;
     }
 }
