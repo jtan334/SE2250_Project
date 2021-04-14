@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
     public Text healthBar;
     int currentHealth;
 
+    // Takes damage afte rgetting hit by boss
     public void TakeDamage(int damage)
     {
         Debug.Log("Hit");
@@ -39,7 +40,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Hit");
 
-            currentHealth = currentHealth - 25;
+            currentHealth = currentHealth - 20;
 
             animator.SetTrigger("Hurt");
             healthBar.text = "Health: " + currentHealth; 
