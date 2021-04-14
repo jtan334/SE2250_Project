@@ -12,6 +12,19 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
 
+    public void TakeDamage(int damage)
+    {
+        Debug.Log("Hit");
+
+        currentHealth -= damage;
+
+        animator.SetTrigger("Hurt");
+
+        if (currentHealth < 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
 
     // Takes damage after colliding with enemies
     public void OnCollisionEnter2D(Collision2D collision)
