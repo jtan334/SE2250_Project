@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        exp = new Experience();
         currentHealth = maxHealth;
         exp.SetExperience(0);
     }
