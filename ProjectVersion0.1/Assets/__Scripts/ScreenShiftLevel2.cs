@@ -58,11 +58,11 @@ public class ScreenShiftLevel2 : MonoBehaviour
         }
         void GoLeft()
         {
-            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x - 40, collision.attachedRigidbody.velocity.y);
+            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x - 20, collision.attachedRigidbody.velocity.y);
         }
         void GoRight()
         {
-            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x + 40, collision.attachedRigidbody.velocity.y);
+            collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x + 20, collision.attachedRigidbody.velocity.y);
         }
         void GoNotDown()
         {
