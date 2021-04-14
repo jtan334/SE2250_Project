@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,14 +11,24 @@ public class PlayerHealth : MonoBehaviour
 
     public Animator animator;
 
-    //Original method
-    //public int maxHealth = 100;
-    //int currentHealth;
+    public int maxHealth = 100;
 
-    //My Method
-    public static int MAXHEALTH = 100;
+    public Text healthBar;
     int currentHealth;
 
+    public void TakeDamage(int damage)
+    {
+        Debug.Log("Hit");
+
+        currentHealth -= damage;
+
+        animator.SetTrigger("Hurt");
+
+        if (currentHealth < 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
 
     // Takes damage after colliding with enemies
     public void OnCollisionEnter2D(Collision2D collision)
@@ -28,8 +40,9 @@ public class PlayerHealth : MonoBehaviour
             currentHealth = currentHealth - 25;
 
             animator.SetTrigger("Hurt");
+            healthBar.text = "Health: " + currentHealth; 
 
-            if (currentHealth < 0)
+            if (currentHealth <= 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
@@ -39,6 +52,8 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Starts the health bar at max health
+         healthBar.text = "Health: " + maxHealth;  
         // Singleton check
         if (H == null)
         {
@@ -49,6 +64,11 @@ public class PlayerHealth : MonoBehaviour
             Debug.LogError("There can not be one Player Health Script!");
         }
 
-        currentHealth = MAXHEALTH;
+        currentHealth = maxHealth;
     }
+    //updates the health bar every frame.
+   
+       
+    
+    
 }
