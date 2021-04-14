@@ -7,7 +7,8 @@ public class Experience : MonoBehaviour
 {
     public float levelCap=100;
     private int level=1;
-    public int abilityPoint = 0;
+    public static int ABILITYPOINTS = 0;
+
 
     public Slider slider;
     /*public void SetMinExperience()
@@ -41,7 +42,7 @@ public class Experience : MonoBehaviour
         exprience = exprience - levelCap;
         levelCap += 125;
         SetMaxExperience();
-        abilityPoint++;
+        ABILITYPOINTS++;
         level++;
         //levelCap += levelCap * 1.25f;
         //SetMinExperience();
@@ -55,9 +56,9 @@ public class Experience : MonoBehaviour
         set { exprience = value; }
     }
 
-    public int AbilityPoint
+    /*public int AbilityPoint
     {
         get { return abilityPoint; }
         set { abilityPoint = value; }
-    }
+    }*/
 }

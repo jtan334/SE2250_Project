@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
 
     //Needed to use the Level property
-    public Experience exp;
+    //public Experience exp;
 
     //Needed to use access the AttackDamage property
     public PlayerCombat att;
@@ -38,19 +38,19 @@ public class PauseMenu : MonoBehaviour
     }
     public void LvlUpHealth()
     {
-        if (exp.AbilityPoint >= 1)
+        if (Experience.ABILITYPOINTS >= 1)
         {
             PlayerHealth.MAXHEALTH += 25;
-            exp.AbilityPoint--;
+            Experience.ABILITYPOINTS--;
         }
 
     }
     public void LvlUpDamage()
     {
-        if (exp.AbilityPoint >= 1)
+        if (Experience.ABILITYPOINTS >= 1)
         {
-            att.AttackDamage += 25;
-            exp.AbilityPoint--;
+            PlayerCombat.attackDamage += 25;
+            Experience.ABILITYPOINTS--;
         }
 
     }

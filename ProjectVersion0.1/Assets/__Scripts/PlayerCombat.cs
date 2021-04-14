@@ -14,13 +14,15 @@ public class PlayerCombat : MonoBehaviour
 
     //Changed
     //public int attackDamage = 40;
-
-    private int attackDamage = 40;
+    //Changed again
+    /*private int attackDamage = 40;
     public int AttackDamage
     {
         get { return attackDamage; }
         set { attackDamage = value; }
-    }
+    }*/
+    public static int attackDamage = 40;
+    
 
     private void Start()
     {
